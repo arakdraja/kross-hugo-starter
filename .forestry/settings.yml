@@ -5,13 +5,13 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: content/about
-  label: About
+  path: content/portfolio
+  label: Portfolio
   create: none
   match: "*"
 - type: directory
-  path: content/portfolio
-  label: Portfolio
+  path: content/about
+  label: About
   create: none
   match: "*"
 - type: directory
